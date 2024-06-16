@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Cadastrar Gatuxo</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="../../images/logo-header.png">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="../../../index.html">Início</a></li>
+                <li><a href="#">Cadastro</a></li>
+                <li><a href="#">Visualizar</a></li>
+                <li><a id="about" href="#">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header>
+        <div id="container">
+            <form id="cat-save-form">
+                <div class="logo-form">
+                    <img src="../../images/logo-register.png">
+                </div>
+                <h2>Preencha os campos</h2>
+                <label for="name">Nome do gatinho:</label>
+                <input type="text" maxlength="20" id="name" name="name">
+
+                <label for="age">Idade do gatinho:</label>
+                <input type="number" min="0" max="20" id="age" name="age">
+
+                <label for="gender">Gênero:</label>
+                <select name="gender" id="gender">
+                    <option value="Macho">Macho</option>
+                    <option value="Femea">Fêmea</option>
+                </select>
+
+                <button id="register" type="submit">Cadastrar gatuxo</button>
+            </form>
+        </div>
+    </header>
+
+    <script src="../../script/script.js"></script>
+
+</body>
+</html>

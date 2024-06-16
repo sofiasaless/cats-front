@@ -1,0 +1,32 @@
+@media screen and (max-width: 950px) {
+
+    nav {
+        background: #062a75;
+        height: 80px;
+        padding: 0;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: center;
+        margin: 0;
+    }
+
+    ul li a {
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    #about {
+        margin-left: 5px;
+    }
+
+    a:hover{
+        border-bottom: 3px solid white;
+    }
+
+}
