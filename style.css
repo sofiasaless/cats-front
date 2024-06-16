@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --first-color: #062a75;
+    --second-color: #f1f1f1;
+    --title: "Righteous", sans-serif;
+    --others: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    background-color: var(--second-color);
+
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    /* background: gray; */
+}
+
+.nav-logo {
+    flex: 10%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.nav-logo img {
+    margin: 10px;
+    width: 60px;    
+}
+
+.navbar {
+    display: flex;
+    flex: 60%;
+    margin-right: 15%;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--first-color);
+    font-size: 18px;
+    margin: 20px;
+}
+
+a:hover {
+    border-bottom: 3px solid var(--first-color);
+}
+
+#about {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: inline;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.texts {
+    flex: 30%;
+    margin-left: 15%;
+}
+
+h1 {
+    font-family: var(--title);
+    font-size: 120px;
+    text-transform: uppercase;
+    color: var(--first-color);
+    line-height: 1;
+    letter-spacing: -5px;
+}
+
+p {
+    color:var(--first-color);
+    font-size: 16px;
+}
+
+.cat-image {
+    margin-right: 10%;
+    display: flex;
+    flex: 40%;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cat-image img {
+    width: auto;
+    height: max-content;
+}
