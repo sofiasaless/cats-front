@@ -130,3 +130,24 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+
+button {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--others);
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.colunas {
+    text-transform: uppercase;
+}
+
+tr, button {
+    text-align: center;
+}
