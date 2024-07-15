@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar Gatuxos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="../../../assets/images/logo-header.png">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="../../../index.html">Início</a></li>
+                <li><a href="../register/register.html">Cadastro</a></li>
+                <li><a href="assets/pages/visualizer/visualizer.html">Visualizar</a></li>
+                <li><a id="about" href="#">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h2>Lista de <strong>gatuxos</strong> cadastrados</h2>
+
+            <table id="cats-table">
+
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Gênero</th>
+                    </tr>
+                </thead>
+
+                <tbody id="cats-table-response">
+                    <!-- Os dados serão inseridos aqui -->
+                </tbody>
+
+            </table>
+
+        </div>
+    </header>
+
+    <script src="../../script/visualizer.js"></script>
+
+
+</body>
+</html>
