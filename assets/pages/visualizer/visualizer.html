@@ -24,6 +24,9 @@
 
     <header>
         <div class="container">
+            <div class="logo-list">
+                <img src="../../images/logo-list.png">
+            </div>
             <h2>Lista de <strong>gatuxos</strong> cadastrados</h2>
 
             <table id="cats-table">
@@ -44,6 +47,30 @@
             </table>
 
         </div>
+
+        <!-- form de atualização do gato na api -->
+        <div id="container-update" class="container-update">
+            <div class="content">
+                <span class="btn-close">&times;</span>
+                <h3>Atualize as informações do Gatuxo</h3>
+                <form class="update-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+
+                    <label for="age">Idade:</label>
+                    <input type="number" min="0" max="20" id="age" required>
+
+                    <label for="gender">Gênero:</label>
+                    <select name="gender" id="gender">
+                        <option value="Macho">Macho</option>
+                        <option value="Femea">Fêmea</option>
+                    </select>
+
+                    <button class="btn-update">Atualizar</button>
+                </form>
+            </div>
+        </div>
+
     </header>
 
     <script src="../../script/visualizer.js"></script>

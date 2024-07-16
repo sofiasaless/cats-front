@@ -98,10 +98,12 @@ h2 {
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 table {
@@ -150,4 +152,101 @@ button {
 
 tr, button {
     text-align: center;
+}
+
+.container-update {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 55%;
+    max-width: 500px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    color: var(--first-color);
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+span {
+    cursor: pointer;
+    font-size: 25px;
+    color: gray;
+    float: left;
+}
+span:hover {
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.btn-update {
+    background-color: white;
+    border: 2px solid #062a75;
+    color: #062a75;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;    
+    font-family: var(--others);
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+}
+
+.btn-update:hover {
+    background-color: #062a75;
+    color: white;
+    transition: ease;
+}
+
+.logo-list {
+    text-align: center;
+    width: 300px;
+}
+
+.logo-list img {
+    width: 60%;
 }

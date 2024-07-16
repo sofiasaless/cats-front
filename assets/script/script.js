@@ -22,7 +22,7 @@ document.querySelector('#cat-save-form').addEventListener('submit', (e) => {
     .then(response => response.json())
     // pegando o estando da requisição, se foi bem sucessido ou não
     .then(cat => {
-        console.log('Success:', cat);
+        // console.log('Success:', cat);
         alert('Gatuxo cadastrado com sucesso!');
     })
     // se houver erro, o catch vai pegar e disparar uma mensagem
