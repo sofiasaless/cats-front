@@ -86,7 +86,6 @@ header {
 }
 
 .texts {
-    flex: 30%;
     margin-left: 15%;
 }
 
@@ -107,7 +106,6 @@ p {
 .cat-image {
     margin-right: 10%;
     display: flex;
-    flex: 40%;
     height: 600px;
     justify-content: center;
     text-align: center;
@@ -117,4 +115,14 @@ p {
 .cat-image img {
     width: auto;
     height: max-content;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
 }

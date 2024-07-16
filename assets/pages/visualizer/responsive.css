@@ -28,5 +28,19 @@
         border-bottom: 3px solid white;
     }
 
+    .container {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    table {
+        margin: 10px;
+    }
+
+    .content {
+        margin: 50% auto;
+        min-width: 300px;
+    }
 
 }
