@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const endpoint = 'http://localhost:8080/cats';
+    const endpoint = 'https://cats-api-phsr.onrender.com/cats';
     
     fetch(endpoint)
     .then(res=> res.json())
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // metodo para excluir o gato do banco de dados
 function excluirGatuxo (id) {
     // metodo fetch para excluir
-    const endpoint = `http://localhost:8080/cats/${id}`
+    const endpoint = `https://cats-api-phsr.onrender.com/cats/${id}`
     fetch(endpoint, {
         method: 'DELETE',
         headers: {
@@ -109,7 +109,7 @@ document.querySelector('.update-form').addEventListener('submit', (evt) => {
     }
     // alert(`${cat.age}, ${cat.name}, ${cat.gender}, ${cat.id}`)
 
-    const endpoint = 'http://localhost:8080/cats/update'
+    const endpoint = 'https://cats-api-phsr.onrender.com/cats/update'
     fetch(endpoint, {
         method: 'PUT',
         headers: {
