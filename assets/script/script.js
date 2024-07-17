@@ -9,7 +9,7 @@ document.querySelector('#cat-save-form').addEventListener('submit', (e) => {
     };
 
     // método fetch que vai interagir com a api
-    fetch('http://localhost:8080/cats/save', {
+    fetch('https://cats-api-phsr.onrender.com/cats/save', {
         // tipo da requisição
         method: 'POST',
         // headers
