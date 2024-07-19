@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         tabelaResposta.innerHTML = '';
 
         cats.forEach(cat => {
+            document.querySelector('.aviso').style.display = 'none';
+            
             const linha = document.createElement('tr');
 
             const nome = document.createElement('td');
